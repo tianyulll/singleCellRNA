@@ -1,0 +1,626 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following object is masked from ‘package:base’:
+
+    intersect
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Scaling features for provided objects
+Computing within dataset neighborhoods
+Finding all pairwise anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4607 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6158 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 5100 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 3922 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9415 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4836 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 25347 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6273 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13389 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 5992 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 5251 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10787 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6968 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 8483 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14059 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 34024 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9251 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13710 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6730 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 75887 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 17359 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9636 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 16288 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6816 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11676 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 17078 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 32573 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 25006 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4442 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 15435 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6907 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 12632 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14953 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 34892 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 19121 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 42807 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 28158 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 7002 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11250 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6002 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 62129 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 15115 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 81109 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 17835 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 15686 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11210 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6216 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11445 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 5019 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14508 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6726 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 12578 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 8983 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 8198 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13014 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 2599 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 7042 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 3816 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10912 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4325 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 8971 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6414 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9533 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10814 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4778 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4020 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 8402 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6954 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 17727 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6389 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14805 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11817 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 18777 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11128 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11757 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13338 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 12834 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6176 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14867 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9884 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6861 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10431 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 17400 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10607 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 27325 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 21540 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14737 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 18843 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9302 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 7467 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9611 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 27347 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6776 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 14257 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 5932 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 54612 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 15895 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 68202 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 19632 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 15973 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 61819 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 15354 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 4726 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 16355 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 19268 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 2912 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 8125 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6560 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13403 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11641 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 31353 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13809 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 28053 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 37236 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 11667 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 6557 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 9265 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10651 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 10078 anchors
+Projecting new data onto SVD
+Projecting new data onto SVD
+Finding neighborhoods
+Finding anchors
+	Found 13831 anchors
+Warning message:
+In CheckDuplicateCellNames(object.list = object.list) :
+  Some cell names are duplicated across objects provided. Renaming to enforce unique cell names.

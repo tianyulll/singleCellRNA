@@ -18,9 +18,8 @@ for (i in 1:length(h5_files)) {
   file.copy(from = sourceFile, to = targetFile)
 }
 
-matrixFile <- list.files(path = "data/", full.names = T)
-
 # read in the matrix file
+matrixFile <- list.files(path = "data", full.names = T)
 sc_mat <- lapply(matrixFile, function(x) {
   Read10X_h5(x)
 })
@@ -31,14 +30,16 @@ sc_obj <- mclapply(sc_mat, mc.cores = 3, function(x) {
   CreateSeuratObject(counts = x) 
 })
 
-# add labeling
-sampleName <- lapply(h5_files, function(x) {
-  strsplit(h5_files[[i]], "/")[[1]][1]
+# label samples in seurat object
+sampleName <- lapply(matrixFile, function(x) {
+  paste(strsplit(strsplit(x, "/")[[1]][2],"_")[[1]][1:2], collapse = "_")
 })
 
 for (i in 1:length(sc_obj)) {
   sc_obj[[i]]@meta.data$sample <- sampleName[[i]]
 }
+
+rm(sc_mat)
 
 # Preprocess
 for (i in 1:length(sc_obj)) {
@@ -54,8 +55,6 @@ for (i in 1:length(sc_obj)) {
 anchor <- FindIntegrationAnchors(sc_obj, reduction = "rpca")
 integrated <- IntegrateData(anchorset = anchor)
 
-saveRDS(integrated, file="processedData/fitered_integrated.rds")
-
 # Dimensional Reduction
 integrated <- integrated %>%
   ScaleData() %>%
@@ -67,24 +66,6 @@ integrated <- RunUMAP(integrated, dims = 1:20, reduction = "int_pca", reduction.
 # Plot
 DimPlot(integrated, reduction = "int_umap")
 
-
-# Cell Labeling
-bc <- unique(u$cellBarcode)
-bc <- lapply(bc, function(x){
-  paste(x, "-1_1", sep = "")
-})
-
-integrated@meta.data$ltr <- rownames(integrated@meta.data) %in% bc
-integrated@meta.data$size <- ifelse(integrated@meta.data$ltr, 10, 0.1)
-integrated@meta.data$ltr <- ifelse(integrated@meta.data$ltr, "1-LTR", "0-Normal")
-
-DimPlot(integrated, reduction = "int_umap", group.by = "ltr", pt.size =integrated@meta.data$size, raster = F)
-
-DimPlot(integrated, reduction = "int_umap", cells.highlight = bc, raster = F)+NoLegend()
-
-
-table(integrated@meta.data$ltr)
-
-
-
+# Save
+saveRDS(integrated, file="processedData/fitered_integrated_dr.rds")
 

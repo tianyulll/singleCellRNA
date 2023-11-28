@@ -1,8 +1,8 @@
-'''
+"
 Parse cell barcodes files to group by integration sites
 Identify LTR cells on PC spaces
 Compared distance in PC spaces between different group of LTR-cells
-'''
+"
 
 library(Seurat)
 library(dplyr)
@@ -100,4 +100,24 @@ euclideanDist <- function(df) {
 sameSite <- unlist(grouped[[2]][1:2])
 euclideanDist(pcTable[sameSite[1:2],])
 euclideanDist(pcTable[sameSite[3:5],])
+
+# Randomly select points for PC distance
+randomDist <- function(df, num_rows, time, seed){
+  set.seed(seed)
+  distList <- list()
+  counter <- time/10
+  for (i in 1:time){
+    if (i %% counter == 0){
+      print(paste("in iteration", i))
+    }
+    ran_df <- df[sample(nrow(df), num_rows, replace = F), ]
+    distList<-c(distList, mean(as.matrix(dist(ran_df))))
+  }
+  return(mean(unlist(distList)))
+}
+
+randomDist(pcTable, 10, 100000, seed = 0)
+
+
+
 
